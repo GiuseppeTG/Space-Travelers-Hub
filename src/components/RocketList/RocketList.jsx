@@ -14,6 +14,7 @@ export default function RocketList() {
 
   return (
     <div className="rocket-list-container">
+      <h2 className="list-title">ROCKETS</h2>
       <ul className="rocket-list">
         {rockets.map((rocket) => (
           <Rocket
