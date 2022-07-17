@@ -51,13 +51,13 @@ nav {
   color: $orange;
 }
 
-li:last-child {
+#my-profile {
   margin-left: 2rem;
   outline: solid white 1px;
   outline-offset: 0.5rem;
 }
 
-li:last-child:hover {
+#my-profile:hover {
   margin-left: 2rem;
   outline: solid $orange 1px;
 }

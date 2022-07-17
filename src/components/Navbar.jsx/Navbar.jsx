@@ -13,7 +13,7 @@ export default function Navbar() {
       <ul className="links-list">
         <li><Link to="/" className="link">ROCKETS</Link></li>
         <li><Link to="/categories" className="link">MISSIONS</Link></li>
-        <li><Link to="/profile" className="link">MY PROFILE</Link></li>
+        <li><Link to="/profile" className="link" id="my-profile">MY PROFILE</Link></li>
       </ul>
     </nav>
   );
