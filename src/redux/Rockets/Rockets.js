@@ -3,7 +3,7 @@ const rocketsAPI = 'https://api.spacexdata.com/v3/rockets/';
 // Actions
 
 const GET_ROCKETS = 'redux/Rockets/Rockets/GET_ROCKETS';
-const TOGGLE_RESERVATION = 'redux/Rockets/Rockets/RESERVE_ROCKETS';
+const TOGGLE_RESERVATION = 'redux/Rockets/Rockets/TOGGLE_RESERVATION';
 
 // Reducer
 
