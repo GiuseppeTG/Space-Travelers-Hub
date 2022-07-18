@@ -3,6 +3,6 @@ import './RocketList.scss';
 
 export default function RocketList() {
   return (
-    <div>rockets</div>
+    <div>List of rocket components</div>
   );
 }
