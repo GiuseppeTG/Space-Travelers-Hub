@@ -1,0 +1,68 @@
+@import '../../scssVariables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  font-family: $poppins;
+  font-size: 1rem;
+  background-color: $dark-gray;
+  color: rgb(255, 255, 255);
+  border-bottom: solid rgba(255, 255, 255, 0.486) 1px;
+  box-shadow: 0 0 10px 5px black;
+}
+
+.logo-and-text {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  gap: 1rem;
+  cursor: pointer;
+  color: white;
+}
+
+.logo-text {
+  color: white;
+  text-decoration: none;
+}
+
+.links-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  color: $orange;
+}
+
+#my-profile {
+  margin-left: 2rem;
+  outline: solid white 1px;
+  outline-offset: 0.5rem;
+}
+
+#my-profile:hover {
+  margin-left: 2rem;
+  outline: solid $orange 1px;
+}
+
+.link.active {
+  text-decoration: underline;
+}
