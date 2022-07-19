@@ -1,8 +1,8 @@
 import React from 'react';
-import MissionList from '../components/MissionList/MissionList';
+import MissionsList from '../components/MissionList/MissionList';
 
 export default function Missions() {
   return (
-    <MissionList />
+    <MissionsList />
   );
 }
