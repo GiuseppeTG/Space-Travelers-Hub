@@ -7,7 +7,6 @@ export default function Profile() {
   const reservedRockets = rockets.filter((rocket) => rocket.reserved);
   const missions = useSelector((state) => state.missions);
   const reservedMissions = missions.filter((mission) => mission.reserved);
-  console.log(reservedMissions);
   return (
     <div className="profile-container">
 
