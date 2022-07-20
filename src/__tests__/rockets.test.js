@@ -40,7 +40,6 @@ describe('Test Rockets component', () => {
     const rocketData = useSelectorMock(
       (mockStore) => mockStore.rockets[0],
     );
-    console.log(rocketData);
     render(
       <Rocket
         rocket={rocketData}

@@ -6,7 +6,6 @@ import { getRockets } from '../../redux/Rockets/Rockets';
 
 export default function RocketList() {
   const rockets = useSelector((state) => state.rockets);
-  console.log(rockets);
   const dispatch = useDispatch();
 
   useEffect(() => {
