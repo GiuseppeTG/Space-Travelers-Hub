@@ -1,49 +1,46 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-
 const API = 'https://api.spacexdata.com/v3/missions';
 
-const initialState = { missions: [], status: null };
 const GET_MISSIONS = 'redux/Rockets/Rockets/GET_MISSIONS';
 const RESERVE_MISSIONS = 'redux/Rockets/Rockets/RESERVE_MISSIONS';
 
-export const getMissions = createAsyncThunk(
-  GET_MISSIONS,
-  async () => {
-    const result = await fetch(API);
-    const data = await result.json();
-    const missions = [];
-    data.forEach((mission) => {
-      const nextMission = {
-        name: mission.mission_name,
-        id: mission.mission_id,
-        description: mission.description,
-        reserved: false,
-      };
-      missions.push(nextMission);
-    });
-    return missions;
-  },
-);
-getMissions();
+export const getMissions = (GET_MISSIONS,
+async () => {
+  const result = await fetch(API, {
+    method: 'GET',
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    },
+  });
+  const data = await result.json();
+  const missions = [];
+  return data.forEach((mission) => {
+    const nextMission = {
+      name: mission.mission_name,
+      id: mission.mission_id,
+      description: mission.description,
+      reserved: false,
+    };
+    missions.push(nextMission);
+  });
+});
 
 export const reservedMissions = (id) => ({
   type: RESERVE_MISSIONS,
   payload: id,
 });
 
-const missions = createSlice({
-  name: 'mission',
-  initialState,
-  extraReducers: {
-    [getMissions.pending]: (state) => ({
-      ...state,
-      status: 'loading',
-    }),
-    [getMissions.fulfilled]: (state, action) => ({
-      ...state,
-      missions: action.payload,
-    }),
-  },
-});
+const missionsReducer = (action, state = []) => {
+  switch (action.type) {
+    case GET_MISSIONS:
+      return [...state, action.payload];
+    case RESERVE_MISSIONS:
+      return state.filter((mission) => {
+        if (mission.id !== action.payload) return mission;
+        return { ...mission, reserved: true };
+      });
+    default:
+      return state;
+  }
+};
 
-export default missions.reducer;
+export default missionsReducer;
