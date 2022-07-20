@@ -8,7 +8,7 @@ export default function Rocket({ rocket }) {
   const dispatch = useDispatch();
 
   return (
-    <li className="rocket-container">
+    <li className="rocket-container" data-testid="rocket-item">
 
       <div
         className="image-container"
