@@ -6,7 +6,7 @@ import { getRockets } from '../../redux/Rockets/Rockets';
 
 export default function RocketList() {
   const rockets = useSelector((state) => state.rockets);
-
+  console.log(rockets);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -14,7 +14,7 @@ export default function RocketList() {
   }, []);
 
   return (
-    <div className="rocket-list-container">
+    <div className="rocket-list-container" data-testid="rocket-list-test">
       <h2 className="list-title">ROCKETS</h2>
       <ul className="rocket-list">
         {rockets.map((rocket) => (
