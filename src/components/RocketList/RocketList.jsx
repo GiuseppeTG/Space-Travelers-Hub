@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { useDispatch, useSelector } from 'react-redux';
 import './RocketList.scss';
 import Rocket from '../Rocket/Rocket';
@@ -9,12 +11,16 @@ export default function RocketList() {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
+  useEffect(() => {
     dispatch(getRockets());
   }, []);
 
   return (
     <div className="rocket-list-container" data-testid="rocket-list-test">
-      <h2 className="list-title">ROCKETS</h2>
+      <h2 className="list-title" data-aos="fade-right">ROCKETS</h2>
       <ul className="rocket-list">
         {rockets.map((rocket) => (
           <Rocket

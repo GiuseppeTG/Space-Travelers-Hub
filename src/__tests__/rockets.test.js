@@ -42,7 +42,11 @@ describe('Test Rockets component', () => {
     );
     render(
       <Rocket
-        rocket={rocketData}
+        id={rocketData.id}
+        name={rocketData.name}
+        description={rocketData.description}
+        img={rocketData.img}
+        reserved={rocketData.reserved}
       />,
     );
     expect(screen.getByTestId('rocket-item')).toBeInTheDocument();
@@ -56,7 +60,11 @@ describe('Test Rockets component', () => {
     );
     render(
       <Rocket
-        rocket={rocketData}
+        id={rocketData.id}
+        name={rocketData.name}
+        description={rocketData.description}
+        img={rocketData.img}
+        reserved={rocketData.reserved}
       />,
     );
     const reservedBtn = screen.getByText('RESERVE ROCKET');
