@@ -3,16 +3,44 @@
 exports[`Testing component rednering propperly renders MissionsList component 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": <body
+    data-aos-delay="0"
+    data-aos-duration="2000"
+    data-aos-easing="ease"
+  >
     <div>
-      <div>
-        MissionList
+      <div
+        class="missions-container"
+      >
+        <h2
+          class="missions-title aos-init aos-animate"
+          data-aos="fade-right"
+        >
+          MISSIONS
+        </h2>
+        <div
+          class="missions-list"
+        >
+          ;
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div>
-      MissionList
+    <div
+      class="missions-container"
+    >
+      <h2
+        class="missions-title aos-init aos-animate"
+        data-aos="fade-right"
+      >
+        MISSIONS
+      </h2>
+      <div
+        class="missions-list"
+      >
+        ;
+      </div>
     </div>
   </div>,
   "debug": [Function],
@@ -72,14 +100,19 @@ Object {
 exports[`Testing component rednering propperly renders RocketList component 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": <body
+    data-aos-delay="0"
+    data-aos-duration="1000"
+    data-aos-easing="ease"
+  >
     <div>
       <div
         class="rocket-list-container"
         data-testid="rocket-list-test"
       >
         <h2
-          class="list-title"
+          class="list-title aos-init aos-animate"
+          data-aos="fade-right"
         >
           ROCKETS
         </h2>
@@ -95,7 +128,8 @@ Object {
       data-testid="rocket-list-test"
     >
       <h2
-        class="list-title"
+        class="list-title aos-init aos-animate"
+        data-aos="fade-right"
       >
         ROCKETS
       </h2>
@@ -161,14 +195,19 @@ Object {
 exports[`Testing component rednering propperly renders Rockets component 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": <body
+    data-aos-delay="0"
+    data-aos-duration="1000"
+    data-aos-easing="ease"
+  >
     <div>
       <div
         class="rocket-list-container"
         data-testid="rocket-list-test"
       >
         <h2
-          class="list-title"
+          class="list-title aos-init aos-animate"
+          data-aos="fade-right"
         >
           ROCKETS
         </h2>
@@ -184,7 +223,8 @@ Object {
       data-testid="rocket-list-test"
     >
       <h2
-        class="list-title"
+        class="list-title aos-init aos-animate"
+        data-aos="fade-right"
       >
         ROCKETS
       </h2>
@@ -250,7 +290,11 @@ Object {
 exports[`Testing component rednering propperly renders navbar component 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": <body
+    data-aos-delay="0"
+    data-aos-duration="2000"
+    data-aos-easing="ease"
+  >
     <div>
       <nav
         class="navbar"
