@@ -3,14 +3,19 @@
 exports[`Testing component rednering propperly renders RocketList component 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": <body
+    data-aos-delay="0"
+    data-aos-duration="1000"
+    data-aos-easing="ease"
+  >
     <div>
       <div
         class="rocket-list-container"
         data-testid="rocket-list-test"
       >
         <h2
-          class="list-title"
+          class="list-title aos-init aos-animate"
+          data-aos="fade-right"
         >
           ROCKETS
         </h2>
@@ -26,7 +31,8 @@ Object {
       data-testid="rocket-list-test"
     >
       <h2
-        class="list-title"
+        class="list-title aos-init aos-animate"
+        data-aos="fade-right"
       >
         ROCKETS
       </h2>
@@ -92,14 +98,19 @@ Object {
 exports[`Testing component rednering propperly renders Rockets component 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": <body
+    data-aos-delay="0"
+    data-aos-duration="1000"
+    data-aos-easing="ease"
+  >
     <div>
       <div
         class="rocket-list-container"
         data-testid="rocket-list-test"
       >
         <h2
-          class="list-title"
+          class="list-title aos-init aos-animate"
+          data-aos="fade-right"
         >
           ROCKETS
         </h2>
@@ -115,7 +126,8 @@ Object {
       data-testid="rocket-list-test"
     >
       <h2
-        class="list-title"
+        class="list-title aos-init aos-animate"
+        data-aos="fade-right"
       >
         ROCKETS
       </h2>

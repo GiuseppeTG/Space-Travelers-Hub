@@ -21,8 +21,8 @@ function MissionsList() {
   }, []);
 
   return (
-    <div className="missions-container" data-testid="missions-list-test">
-      <h2 className="missions-title">MISSIONS</h2>
+    <div className="missions-container">
+      <h2 className="missions-title" data-aos="fade-right">MISSIONS</h2>
       <div className="missions-list">
         {missionNumber.map((mission) => (
           <div key={mission} className="mission-container" data-aos="fade-up">
