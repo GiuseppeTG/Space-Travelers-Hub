@@ -4,6 +4,8 @@
 
 > This web app works with the real live data from the SpaceX API. It is for a company (not a real one) that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.
 
+![](src/screenshots/rockets.png) ![](src/screenshots/missions.png)
+
 
 ## Built With
 
@@ -13,7 +15,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://62d9a6fbda5ea308bbf1646b--frolicking-kataifi-133879.netlify.app/)
 
 
 ## Getting Started
