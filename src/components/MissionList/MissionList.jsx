@@ -22,7 +22,7 @@ function MissionsList() {
 
   return (
     <div className="missions-container">
-      <h2 className="missions-title">MISSIONS</h2>
+      <h2 className="missions-title" data-aos="fade-right">MISSIONS</h2>
       <div className="missions-list">
         {missionNumber.map((mission) => (
           <div key={mission} className="mission-container" data-aos="fade-up">
