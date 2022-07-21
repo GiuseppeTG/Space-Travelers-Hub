@@ -1,5 +1,25 @@
+@import '../../scssVariables.scss';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.rocket-list-container {
+  margin-top: 4rem;
+  padding: 4rem;
+}
+
+.rocket-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list-title {
+  font-family: $montserrat;
+  font-size: 4rem;
+  color: $yellow;
+  margin-bottom: 4rem;
 }

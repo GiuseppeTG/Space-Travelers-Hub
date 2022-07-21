@@ -19,7 +19,11 @@ export default function RocketList() {
         {rockets.map((rocket) => (
           <Rocket
             key={rocket.id}
-            rocket={rocket}
+            name={rocket.name}
+            description={rocket.description}
+            img={rocket.img}
+            reserved={rocket.reserved}
+            id={rocket.id}
           />
         ))}
       </ul>

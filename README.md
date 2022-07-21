@@ -2,14 +2,14 @@
 
 # Project Name
 
-> Description the project.
+> This web app works with the real live data from the SpaceX API. It is for a company (not a real one) that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML CSS/SASS JS 
+- Frameworks: React/Redux Jest
+- Technologies VSC, Git, GitHub, Gitflow, Chrome
 
 ## Live Demo (if available)
 
@@ -18,33 +18,31 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+code editor and browser
 
 ### Install
+`npm i`
 
 ### Usage
+use the calculator by clicking on its buttons.
 
 ### Run tests
+`npm test`
 
 ### Deployment
-
+`npm start`
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Giuseppe Tomasini**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@GiuseppeTG](https://github.com/GiuseppeTG)
+- Twitter: [@giusetomasini](https://twitter.com/giusetomasini)
+- LinkedIn: [Giuseppe Tomasini](https://www.linkedin.com/in/giuseppe-tomasini-67ba101a8/)
 
 👤 **Author2**
 
@@ -61,12 +59,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
