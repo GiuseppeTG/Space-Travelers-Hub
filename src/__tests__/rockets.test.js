@@ -67,7 +67,7 @@ describe('Test Rockets component', () => {
         reserved={rocketData.reserved}
       />,
     );
-    const reservedBtn = screen.getByText('CANCEL RESERVATION');
+    const reservedBtn = screen.getByText('RESERVE ROCKET');
     expect(reservedBtn).toBeInTheDocument();
   });
 });
