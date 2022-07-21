@@ -1,91 +1,45 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders Profile component 1`] = `
+exports[`Testing component rednering propperly renders MissionsList component 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": <body
+    data-aos-delay="0"
+    data-aos-duration="2000"
+    data-aos-easing="ease"
+  >
     <div>
       <div
-        class="profile-container"
+        class="missions-container"
+        data-testid="missions-list-test"
       >
-        <div
-          class="rocket-reservations"
+        <h2
+          class="missions-title"
         >
-          <h2
-            class="reserved-list-title"
-          >
-            ROCKETS RESERVAED
-          </h2>
-          <ul
-            class="reserved-list"
-          >
-            <li
-              class="to-yellow"
-            >
-              No Rockets Yet
-            </li>
-          </ul>
-        </div>
+          MISSIONS
+        </h2>
         <div
-          class="active-missions"
+          class="missions-list"
         >
-          <h2
-            class="reserved-list-title"
-          >
-            ACTIVE MISSIONS
-          </h2>
-          <ul
-            class="reserved-list"
-          >
-            <li
-              class="to-yellow"
-            >
-              No Missions Yet
-            </li>
-          </ul>
+          ;
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="profile-container"
+      class="missions-container"
+      data-testid="missions-list-test"
     >
-      <div
-        class="rocket-reservations"
+      <h2
+        class="missions-title"
       >
-        <h2
-          class="reserved-list-title"
-        >
-          ROCKETS RESERVAED
-        </h2>
-        <ul
-          class="reserved-list"
-        >
-          <li
-            class="to-yellow"
-          >
-            No Rockets Yet
-          </li>
-        </ul>
-      </div>
+        MISSIONS
+      </h2>
       <div
-        class="active-missions"
+        class="missions-list"
       >
-        <h2
-          class="reserved-list-title"
-        >
-          ACTIVE MISSIONS
-        </h2>
-        <ul
-          class="reserved-list"
-        >
-          <li
-            class="to-yellow"
-          >
-            No Missions Yet
-          </li>
-        </ul>
+        ;
       </div>
     </div>
   </div>,

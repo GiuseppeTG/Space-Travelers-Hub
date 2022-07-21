@@ -21,7 +21,7 @@ function MissionsList() {
   }, []);
 
   return (
-    <div className="missions-container">
+    <div className="missions-container" data-testid="missions-list-test">
       <h2 className="missions-title">MISSIONS</h2>
       <div className="missions-list">
         {missionNumber.map((mission) => (

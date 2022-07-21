@@ -60,9 +60,9 @@ export default function Rocket({
 }
 
 Rocket.propTypes = {
-  id: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  id: PropTypes.string,
+  name: PropTypes.string,
+  description: PropTypes.string,
   img: PropTypes.string,
   reserved: PropTypes.bool,
 };
@@ -70,4 +70,7 @@ Rocket.propTypes = {
 Rocket.defaultProps = {
   reserved: false,
   img: '',
+  name: '',
+  id: '',
+  description: '',
 };

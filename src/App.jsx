@@ -12,9 +12,9 @@ function App() {
       <Navbar />
       <div className="main">
         <Routes>
-          <Route path="/" element={<Rockets />} />
-          <Route path="/missions" element={<Missions />} />
-          <Route path="/profile" element={<MyProfile />} />
+          <Route exact path="/" element={<Rockets />} />
+          <Route exact path="/missions" element={<Missions />} />
+          <Route exact path="/profile" element={<MyProfile />} />
         </Routes>
       </div>
     </>

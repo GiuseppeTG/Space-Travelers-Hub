@@ -1,93 +1,115 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders Profile component 1`] = `
+exports[`Testing component rendering properly renders navbar component 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="profile-container"
+      <nav
+        class="navbar"
       >
         <div
-          class="rocket-reservations"
+          class="logo-and-text"
         >
-          <h2
-            class="reserved-list-title"
-          >
-            ROCKETS RESERVAED
-          </h2>
-          <ul
-            class="reserved-list"
-          >
-            <li
-              class="to-yellow"
+          <img
+            alt="planet logo"
+            src="planetLogo.png"
+          />
+          <p>
+            <a
+              aria-current="page"
+              class="logo-text active"
+              href="/"
             >
-              No Rockets Yet
-            </li>
-          </ul>
+              Space Travelers' Hub
+            </a>
+          </p>
         </div>
-        <div
-          class="active-missions"
+        <ul
+          class="links-list"
         >
-          <h2
-            class="reserved-list-title"
-          >
-            ACTIVE MISSIONS
-          </h2>
-          <ul
-            class="reserved-list"
-          >
-            <li
-              class="to-yellow"
+          <li>
+            <a
+              aria-current="page"
+              class="link active"
+              href="/"
             >
-              No Missions Yet
-            </li>
-          </ul>
-        </div>
-      </div>
+              ROCKETS
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              href="/missions"
+            >
+              MISSIONS
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              href="/profile"
+              id="my-profile"
+            >
+              MY PROFILE
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="profile-container"
+    <nav
+      class="navbar"
     >
       <div
-        class="rocket-reservations"
+        class="logo-and-text"
       >
-        <h2
-          class="reserved-list-title"
-        >
-          ROCKETS RESERVAED
-        </h2>
-        <ul
-          class="reserved-list"
-        >
-          <li
-            class="to-yellow"
+        <img
+          alt="planet logo"
+          src="planetLogo.png"
+        />
+        <p>
+          <a
+            aria-current="page"
+            class="logo-text active"
+            href="/"
           >
-            No Rockets Yet
-          </li>
-        </ul>
+            Space Travelers' Hub
+          </a>
+        </p>
       </div>
-      <div
-        class="active-missions"
+      <ul
+        class="links-list"
       >
-        <h2
-          class="reserved-list-title"
-        >
-          ACTIVE MISSIONS
-        </h2>
-        <ul
-          class="reserved-list"
-        >
-          <li
-            class="to-yellow"
+        <li>
+          <a
+            aria-current="page"
+            class="link active"
+            href="/"
           >
-            No Missions Yet
-          </li>
-        </ul>
-      </div>
-    </div>
+            ROCKETS
+          </a>
+        </li>
+        <li>
+          <a
+            class="link"
+            href="/missions"
+          >
+            MISSIONS
+          </a>
+        </li>
+        <li>
+          <a
+            class="link"
+            href="/profile"
+            id="my-profile"
+          >
+            MY PROFILE
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
