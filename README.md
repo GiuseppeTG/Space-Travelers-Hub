@@ -15,7 +15,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://62d9a6fbda5ea308bbf1646b--frolicking-kataifi-133879.netlify.app/)
+[Live Demo Link](https://dev--frolicking-kataifi-133879.netlify.app/)
 
 
 ## Getting Started
@@ -46,11 +46,11 @@ use the calculator by clicking on its buttons.
 - Twitter: [@giusetomasini](https://twitter.com/giusetomasini)
 - LinkedIn: [Giuseppe Tomasini](https://www.linkedin.com/in/giuseppe-tomasini-67ba101a8/)
 
-👤 **Author2**
+👤 **Fabien**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@fibini](https://github.com/fibini)
+- Twitter: [@Onenewpage1](https://twitter.com/Onenewpage1)
+- LinkedIn: [fabien brathwaite](https://www.linkedin.com/in/fabien-brathwaite/)
 
 ## 🤝 Contributing
 
