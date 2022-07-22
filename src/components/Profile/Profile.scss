@@ -1,5 +1,71 @@
+@import '../../scssVariables.scss';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.profile-container {
+  margin-top: 4rem;
+  padding: 4rem;
+  font-family: $poppins;
+  display: flex;
+  justify-content: space-around;
+}
+
+.reserved-list-title {
+  color: $orange;
+  margin-bottom: 2rem;
+}
+
+.reserved-list {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border: white solid 1px;
+  color: white;
+  padding: 1rem;
+  list-style: none;
+  border-radius: 1rem;
+  gap: 1rem;
+}
+
+.reserved-element {
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.reserved-element:nth-child(odd) {
+  background-color: $blue;
+}
+
+.reserved-element:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
+.active-missions-title {
+  color: $orange;
+  margin-bottom: 2rem;
+}
+
+.active-missions-list {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border: white solid 1px;
+  color: white;
+  padding: 1rem;
+  list-style: none;
+  border-radius: 1rem;
+  gap: 1rem;
+}
+
+.active-mission {
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.to-yellow {
+  color: $yellow;
 }

@@ -1,5 +1,55 @@
+@import '../../scssVariables.scss';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.missions-container {
+  padding: 4rem;
+  margin-top: 4rem;
+  font-family: $poppins;
+}
+
+.missions-title {
+  color: $yellow;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+
+.missions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  border: white solid 1px;
+  border-radius: 1rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.1));
+}
+
+.mission-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mission-name {
+  font-size: 2rem;
+  color: $orange;
+}
+
+.mission-description {
+  color: white;
+  line-height: 2;
+}
+
+.mission-status {
+  color: $dark-purple;
 }
