@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { getMissions } from "../../redux/Missions/Missions";
-import "./MissionList.scss";
-
-const MissionsList = () => {
-  const missions = useSelector((state) => state.missions.missions);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(getMissions());
-  }, []);
-  console.log(missions)
-  return (
-    <div className="missions-container">
-      <h2 className="missions-title">MISSIONS</h2>
-      <div className="missions-list">
-        {missions.map((mission) => (
-          <div key={mission.id} className="mission-container">
-            <div className="mission-header">
-              <h3 className="mission-name">{mission.name}</h3>
-              <h3 className="mission-status">
-                {mission.reserved ? "ACTIVE MEMBER" : "NOT A MEMBER"}
-              </h3>
-            </div>
-            <p className="mission-description">
-              {mission.description}
-            </p>
-=======
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import { useSelector, useDispatch } from 'react-redux';
@@ -86,17 +57,12 @@ function MissionsList() {
               </button>
               )}
             </div>
->>>>>>> 9c61cb5eba33ea6a87ca019c691b93e845698299
           </div>
         ))}
         ;
       </div>
     </div>
   );
-<<<<<<< HEAD
-};
-=======
 }
->>>>>>> 9c61cb5eba33ea6a87ca019c691b93e845698299
 
 export default MissionsList;
