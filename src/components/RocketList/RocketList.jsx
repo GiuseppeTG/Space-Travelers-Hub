@@ -15,7 +15,9 @@ export default function RocketList() {
   }, []);
 
   useEffect(() => {
-    dispatch(getRockets());
+    if ((rockets.length) === 0) {
+      dispatch(getRockets());
+    }
   }, []);
 
   return (
