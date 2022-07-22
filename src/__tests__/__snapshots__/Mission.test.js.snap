@@ -11,10 +11,10 @@ Object {
     <div>
       <div
         class="missions-container"
-        data-testid="missions-list-test"
       >
         <h2
-          class="missions-title"
+          class="missions-title aos-init aos-animate"
+          data-aos="fade-right"
         >
           MISSIONS
         </h2>
@@ -29,10 +29,10 @@ Object {
   "container": <div>
     <div
       class="missions-container"
-      data-testid="missions-list-test"
     >
       <h2
-        class="missions-title"
+        class="missions-title aos-init aos-animate"
+        data-aos="fade-right"
       >
         MISSIONS
       </h2>
