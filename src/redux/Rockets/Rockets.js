@@ -16,7 +16,6 @@ export default function rocketsReducer(state = [], action = {}) {
         if (rocket.id !== action.payload) { return rocket; }
         return { ...rocket, reserved: !rocket.reserved };
       });
-
     default:
       return state;
   }
